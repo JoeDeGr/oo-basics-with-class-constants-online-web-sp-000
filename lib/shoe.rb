@@ -6,6 +6,7 @@ BRANDS = []
     @brand = brand
     BRANDS << brand if BRANDS != brand
   end
+  end
 
   def cobble
     self.condition = "new"
